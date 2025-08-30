@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Webpage</title>
+</head>
+<body>
+    <nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <img src="Gingerbread man.jpg" alt="Sample Image"height="100" width="150"> 
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/mFl8nzZuExE?si=pFLONo-SGIy1WvqW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </ul>
+</nav>
+    <h1>Welcome to My Website</h1>
+    <button onclick="changeText()">Click Me!</button>
+<p id="text">This text will change when you click the button.</p>
+    <p>This is my first webpage using HTML!</p>
+<form action="#" method="POST">
+    <form onsubmit="return validateForm()" action="#" method="POST">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="4" required></textarea>
+
+    <button type="submit">Send</button>
+</form>   
+<script src="script.js"></script>
+</body>
+</html>
